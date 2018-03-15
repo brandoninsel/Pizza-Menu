@@ -1,0 +1,96 @@
+
+
+
+.modal-header{
+    background-color: rgb(154, 98, 95);
+
+}
+
+.modal-footer{
+    background-color: #709270;
+
+
+}
+
+.modal-body{
+    background-color:#f3edef;
+}
+
+.jumbotron {
+	width:100%;
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 0rem;
+   background: url('./pizza.jpg') top center fixed;
+  background-size:cover;
+  background-repeat:no;
+ top:0;
+ left:0;
+ position: relative;
+ border: 1px solid #000;
+ margin-bottom:1rem;
+ height:125vh;
+
+}
+
+
+.flex-box {
+	height:300px;
+	width:100%;
+  
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+margin:auto;
+}
+
+
+#frmMenu {
+	margin: 0% auto;
+	width: 100%;
+    flex-direction: row;
+    align-items: stretch;
+	border-radius: 25px;
+}
+
+
+
+.item-2 {
+    background-color: rgb(241, 229, 211);
+border: solid 1px white;
+border-radius: 10px 10px 10px 10px ;
+text-align:center;
+padding-left: 10px;
+border: 2px solid black;
+height:275px;
+width:250px;
+grid-row-gap: 10px;
+text-align: start;
+margin:5px;
+
+}
+
+
+
+.box-overlay {
+	height:60%;
+	width:60%;
+ background-color: #000;
+	opacity: .95;
+	display:block;
+    position: absolute;
+    bottom: 0%;
+    top: 30%;
+    right: 0%;
+    left: 20%;
+  z-index: 52;
+  padding-top: 1rem;
+  overflow:hidden;
+ padding-bottom:1rem;
+ border: 1px solid rgb(110, 21, 21);
+ box-sizing: block;
+}
+
+
